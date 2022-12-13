@@ -1,0 +1,3 @@
+rootProject.name='FlatDesign'
+include ':app'
+include ':library'

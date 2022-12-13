@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlatWidgetDrawable">
+        <attr name="flatCornerRadius" format="dimension"/>
+        <attr name="flatCornerTopLeftRadius" format="dimension"/>
+        <attr name="flatCornerTopRightRadius" format="dimension"/>
+        <attr name="flatCornerBottomLeftRadius" format="dimension"/>
+        <attr name="flatCornerBottomRightRadius" format="dimension"/>
+        <attr name="flatStrokeWidth" format="dimension"/>
+        <attr name="flatStrokeColor" format="color"/>
+        <attr name="flatShadowColor" format="color"/>
+        <attr name="flatShadowRadius" format="dimension"/>
+        <attr name="flatShadowDx" format="dimension"/>
+        <attr name="flatShadowDy" format="dimension"/>
+        <attr name="flatColor" format="color"/>
+        <attr name="flatContentPadding" format="dimension"/>
+        <attr name="flatContentPaddingHorizontal" format="dimension"/>
+        <attr name="flatContentPaddingVertical" format="dimension"/>
+        <attr name="flatContentPaddingLeft" format="dimension"/>
+        <attr name="flatContentPaddingRight" format="dimension"/>
+        <attr name="flatContentPaddingTop" format="dimension"/>
+        <attr name="flatContentPaddingBottom" format="dimension"/>
+        <attr name="flatGradientStartColor" format="color"/>
+        <attr name="flatGradientCenterColor" format="color"/>
+        <attr name="flatGradientEndColor" format="color"/>
+        <attr name="flatGradientAngle" format="float"/>
+    </declare-styleable>
+</resources>
