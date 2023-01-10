@@ -577,9 +577,8 @@ public class FlatWidgetDrawable extends Drawable {
         }
 
         @Override
-        public void setShadowLayer(float radius, float dx, float dy, long shadowColor) {
+        public void setShadowLayer(float radius, float dx, float dy, @ColorInt int shadowColor) {
             super.setShadowLayer(radius, dx, dy, shadowColor);
-
             if (Build.VERSION.SDK_INT < Build.VERSION_CODES.Q) {
                 shadowObjects = new Object[4];
                 shadowObjects[0] = radius;
@@ -617,7 +616,7 @@ public class FlatWidgetDrawable extends Drawable {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
                 return super.getShadowLayerColor();
             } else {
-                return shadowObjects != null ? Color.toArgb((long) shadowObjects[3]) : 0;
+                return shadowObjects != null ? (int) shadowObjects[3] : 0;
             }
         }
 
